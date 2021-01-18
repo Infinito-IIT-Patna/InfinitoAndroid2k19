@@ -34,6 +34,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:18.0.0'
     implementation 'com.google.firebase:firebase-core:17.0.0'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'androidx.test.espresso:espresso-core:3.1.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.google.firebase:firebase-config:18.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
@@ -82,7 +83,7 @@ dependencies {
     implementation 'com.google.zxing:javase:3.3.0'
 
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
-
+    androidTestImplementation 'org.testng:testng:6.9.6'
 
 
 }
